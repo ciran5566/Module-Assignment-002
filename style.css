@@ -1,0 +1,63 @@
+body{
+   background-size: cover;
+background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*xMuIOwjliGUPjkzukeWKfw.jpeg);
+}
+
+h1{
+    text-align: center;
+    color:#7b241c;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 1250px;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(254, 254, 254, 0.021);
+  box-shadow: inset -5px -5px rgba(0,0,0,0.2);
+}
+input[type="text"],
+input[type="password"]{
+  padding: 16px 30px;
+  margin-top: 1px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.9);
+  box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+  color: rgb(8, 24, 243);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  
+}
+input[type="submit"],
+input[type="reset"]
+{
+  padding: 10px 30px;
+  margin-top: 20px;
+  width: 49%;
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+input:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.error-message{
+    color:red;
+    font-size:14px;
+    margin-top:5px;
+}
+.invalid-feedback{
+ color:rgb(236, 7, 7);
+}
+label{
+  color: white;
+}
